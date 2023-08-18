@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>geometry-genius</title>
+    <!-- tailwind css and daisy UI CDN  -->
+    
+<link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+   <header class="mb-20">
+    <div class="flex justify-between items-center flex-col md:flex-row lg:flex-row w-5/6 mx-auto bg-slate-200 px-8 py-8 mt-5">
+        <div>
+            <h1 class="text-2xl text-cyan-600"> <span class="text-4xl font-bold text-black">Interactive</span> <br> Geometry Genius</h1>
+        </div>
+        <div>
+            <button class="bg-blue-400 px-3 py-2 text-white">Blog</button>
+        </div>
+    </div>
+   </header>
+   <main>
+    <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-5/6 mx-auto">
+            <!-- triangle card  -->
+    <div class="card w-96 bg-base-100 shadow-xl">
+        <figure><img src="/images/triangle.png" alt="Shoes" /></figure>
+        <div class="card-body">
+          <h2 class="text-center text-2xl">Triangle</h2>
+          <p class="text-center">Area(A)= 0.5 x b x h</p>
+            <div class="flex px-8 py-5">
+                <input type="text" placeholder="base" id="triangle-base" class="p-1 border bg-[#F1F1F1] w-24"> <span class="px-2">cm</span>
+                <input type="text" placeholder="height" id="triangle-height" class="p-1 border bg-[#F1F1F1] w-24"><span class="px-2">cm</span>
+            </div>
+            <p class="text-center mb-2">Area : <span id="show-area">0</span> cm <sup>2</sup> </p>
+          <div>
+            <button id="triangle-btn" class="btn btn-primary w-full">Calculate</button>
+          </div>
+        </div>
+      </div>
+            <!-- Rectangle card  -->
+    <div class="card w-96 bg-base-100 shadow-xl">
+        <figure><img src="/images/Rectangle.png" alt="Rectangle" /></figure>
+        <div class="card-body">
+          <h2 class="text-center text-2xl">Rectangle</h2>
+          <p class="text-center">Area(A)= w x l</p>
+            <div class="flex px-8 py-5">
+                <input type="text" placeholder="Width" id="rectangle-width" class="p-1 border bg-[#F1F1F1] w-24"> <span class="px-2">cm</span>
+                <input type="text" placeholder="Length" id="rectangle-length" class="p-1 border bg-[#F1F1F1] w-24"><span class="px-2">cm</span>
+            </div>
+            <p class="text-center mb-2">Area : <span id="showRactangle-area">0</span> cm <sup>2</sup> </p>
+          <div>
+            <button id="ractangle-btn" class="btn btn-primary w-full">Calculate</button>
+          </div>
+        </div>
+      </div>
+            <!-- triangle card  -->
+    <div class="card w-96 bg-base-100 shadow-xl">
+        <figure><img src="/images/triangle.png" alt="Shoes" /></figure>
+        <div class="card-body">
+          <h2 class="text-center text-2xl">Triangle</h2>
+          <p class="text-center">Area(A)= 0.5 x b x h</p>
+            <div class="flex px-8 py-5">
+                <input type="text" placeholder="base" id="triangle-base" class="p-1 border bg-[#F1F1F1] w-24"> <span class="px-2">cm</span>
+                <input type="text" placeholder="height" id="triangle-height" class="p-1 border bg-[#F1F1F1] w-24"><span class="px-2">cm</span>
+            </div>
+            <p class="text-center mb-2">Area : <span id="show-area">0</span> cm <sup>2</sup> </p>
+          <div>
+            <button id="triangle-btn" class="btn btn-primary w-full">Calculate</button>
+          </div>
+        </div>
+      </div>
+    </section>
+   </main> 
+   <footer>
+
+   </footer>
+   <script src="script.js"></script>
+</body>
+</html>
