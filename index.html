@@ -24,14 +24,14 @@
     <!-- 1st section triangle , Rectangle , Parallelogram -->
     <section class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 w-5/6 md:w-11/12 lg:w-5/6 mx-auto md:mx-auto lg:mx-auto mb-10 px-0 md:px-32 lg:px-0 gap-4">
             <!-- triangle card  -->
-    <div class="card bg-base-100 shadow-xl mb-5 md:mb-5 lg:mb-0">
-        <figure><img src="/images/triangle.png" alt="Shoes" /></figure>
+    <div class="card bg-base-100 shadow-xl mb-5 md:mb-5 lg:mb-0 px-5 md:px-0 lg:px-0">
+        <figure><img src="images/triangle.png" alt="Shoes" /></figure>
         <div class="card-body">
           <h2 class="text-center text-2xl">Triangle</h2>
           <p class="text-center">Area(A)= 0.5 x b x h</p>
-            <div class="flex px-8 py-5">
-                <input type="text" placeholder="base" id="triangle-base" class="p-1 border bg-[#F1F1F1] w-24"> <span class="px-2">cm</span>
-                <input type="text" placeholder="height" id="triangle-height" class="p-1 border bg-[#F1F1F1] w-24"><span class="px-2">cm</span>
+            <div class="flex justify-center">
+                <input type="text" placeholder="input b" id="triangle-base" class="p-1 border bg-[#F1F1F1] w-24 text-center"> <span class="px-2">cm</span>
+                <input type="text" placeholder="input h" id="triangle-height" class="p-1 border bg-[#F1F1F1] w-24 text-center"><span class="px-2">cm</span>
             </div>
             <p class="text-center mb-2">Area : <span id="show-area" class="font-medium">0</span> cm <sup>2</sup> </p>
           <div>
@@ -41,13 +41,13 @@
       </div>
             <!-- Rectangle card  -->
     <div class="card bg-base-100 shadow-xl mb-5 md:mb-5 lg:mb-0">
-        <figure><img src="/images/Rectangle.png" alt="Rectangle" /></figure>
+        <figure><img src="images/Rectangle.png" alt="Rectangle" /></figure>
         <div class="card-body">
           <h2 class="text-center text-2xl">Rectangle</h2>
           <p class="text-center">Area(A)= w x l</p>
-            <div class="flex px-8 py-5">
-                <input type="text" placeholder="Width" id="rectangle-width" class="p-1 border bg-[#F1F1F1] w-24"> <span class="px-2">cm</span>
-                <input type="text" placeholder="Length" id="rectangle-length" class="p-1 border bg-[#F1F1F1] w-24"><span class="px-2">cm</span>
+            <div class="flex justify-center">
+                <input type="text" placeholder="input W" id="rectangle-width" class="p-1 border bg-[#F1F1F1] w-24 text-center"> <span class="px-2">cm</span>
+                <input type="text" placeholder="input L" id="rectangle-length" class="p-1 border bg-[#F1F1F1] w-24 text-center"><span class="px-2">cm</span>
             </div>
             <p class="text-center mb-2">Area : <span id="showRactangle-area" class="font-medium">0</span> cm <sup>2</sup> </p>
           <div>
@@ -61,9 +61,9 @@
         <div class="card-body">
           <h2 class="text-center text-2xl">Parallelogram</h2>
           <p class="text-center">Area(A)= b x h</p>
-            <div class="flex px-8 py-5">
-                <input type="text" placeholder="base" id="parallelogram-base" class="p-1 border bg-[#F1F1F1] w-24"> <span class="px-2">cm</span>
-                <input type="text" placeholder="height" id="parallelogram-height" class="p-1 border bg-[#F1F1F1] w-24"><span class="px-2">cm</span>
+            <div class="flex justify-center">
+                <input type="text" placeholder="input b" id="parallelogram-base" class="p-1 border bg-[#F1F1F1] w-24 text-center"> <span class="px-2">cm</span>
+                <input type="text" placeholder="input h" id="parallelogram-height" class="p-1 border bg-[#F1F1F1] w-24 text-center"><span class="px-2">cm</span>
             </div>
             <p class="text-center mb-2">Area : <span id="show-parallelogram-area" class="font-medium">0</span> cm <sup>2</sup> </p>
           <div>
@@ -81,9 +81,9 @@
         <div class="card-body">
           <h2 class="text-center text-2xl">Rhombus</h2>
           <p class="text-center">Area(A)= 0.5 x d <sub>1</sub> x d <sub>2</sub> </p>
-            <div class="flex px-8 py-5">
-                <input type="text" placeholder="d1" id="d1" class="p-1 border bg-[#F1F1F1] w-24"> <span class="px-2">cm</span>
-                <input type="text" placeholder="d2" id="d2" class="p-1 border bg-[#F1F1F1] w-24"><span class="px-2">cm</span>
+            <div class="flex justify-center">
+                <input type="text" placeholder="input d1" id="d1" class="p-1 border bg-[#F1F1F1] w-24 text-center"> <span class="px-2">cm</span>
+                <input type="text" placeholder="input d2" id="d2" class="p-1 border bg-[#F1F1F1] w-24 text-center"><span class="px-2">cm</span>
             </div>
             <p class="text-center mb-2">Area : <span id="d1d2-show-area" class="font-medium">0</span> cm <sup>2</sup> </p>
           <div>
@@ -97,9 +97,9 @@
         <div class="card-body">
           <h2 class="text-center text-2xl">Pentagon</h2>
           <p class="text-center">Area(A)=0.5 X p x b</p>
-            <div class="flex px-8 py-5">
-                <input type="text" placeholder="Provibe p" id="p-area" class="p-1 border bg-[#F1F1F1] w-24"> <span class="px-2">cm</span>
-                <input type="text" placeholder="Base" id="p-base" class="p-1 border bg-[#F1F1F1] w-24"><span class="px-2">cm</span>
+            <div class="flex justify-center">
+                <input type="text" placeholder="input p" id="p-area" class="p-1 border bg-[#F1F1F1] w-24 text-center"> <span class="px-2">cm</span>
+                <input type="text" placeholder="input b" id="p-base" class="p-1 border bg-[#F1F1F1] w-24 text-center"><span class="px-2">cm</span>
             </div>
             <p class="text-center mb-2">Area : <span id="showP-area" class="font-medium">0</span> cm <sup>2</sup> </p>
           <div>
@@ -113,9 +113,9 @@
         <div class="card-body">
           <h2 class="text-center text-2xl">Ellipse</h2>
           <p class="text-center">Area(A)= 𝝅ab</p>
-            <div class="flex px-8 py-5">
-                <input type="text" placeholder="a" id="pai-a" class="p-1 border bg-[#F1F1F1] w-24"> <span class="px-2">cm</span>
-                <input type="text" placeholder="b" id="pai-b" class="p-1 border bg-[#F1F1F1] w-24"><span class="px-2">cm</span>
+            <div class="flex justify-center">
+                <input type="text" placeholder="input a" id="pai-a" class="p-1 border bg-[#F1F1F1] w-24 text-center"> <span class="px-2">cm</span>
+                <input type="text" placeholder="input b" id="pai-b" class="p-1 border bg-[#F1F1F1] w-24 text-center"><span class="px-2">cm</span>
             </div>
             <p class="text-center mb-2">Area : <span id="show-elips-area" class="font-medium">0</span> cm <sup>2</sup> </p>
           <div>
